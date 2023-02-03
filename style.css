@@ -172,46 +172,55 @@ header .nav-bar ul li a:hover{
     padding: 1rem 0;
 }
 
-.about .heading span{
-    color: green;
-}
-
 .about .row{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 1rem 0;
-    padding-left: 4rem;
-    padding-right: 4rem;
+}
+
+.about .row .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1 rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color: var(--red);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.about .row .info h3 span{
+    color: #EEE;
+    padding: 0 .5rem;
 }
 
 .about .row .counter{
     flex: 1 1 48rem;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .about .row .counter .box{
-    width: 100%;
+    width: 20rem;
     background: #222;
-    padding: 1rem;
+    text-align: center;
+    padding: 2rem;
     margin: 2rem;
 }
 
 .about .row .counter .box span{
     font-size: 4rem;
-    color: green;
+    color: var(--red);
 }
 
 .about .row .counter .box h3{
     font-size: 2rem;
     color: #FFF;
-}
-
-.experience .heading span{
-    color: #8F00FF;
 }
 
 .experience .box-container{
@@ -220,8 +229,7 @@ header .nav-bar ul li a:hover{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 1rem 0;
-    padding-left: 8rem;
-    padding-right: 6rem;
+    padding-left: 10rem;
 }
 
 .experience .box-container .box{
@@ -242,7 +250,7 @@ header .nav-bar ul li a:hover{
 
 .experience .box-container .box h2{
     font-size: 3rem;
-    color: #8F00FF;
+    color: #FFF;
     padding-top: 1.5rem;
 }
 
@@ -268,43 +276,32 @@ header .nav-bar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color: #FFF;
-    background: #8F00FF;
-}
-
-.skills .heading span{
-    color: #FF5F1F;
+    background: var(--red);
 }
 
 .skills .box-container{
+    flex: 1 1 48rem;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 1rem 0;
-    padding-left: 4rem;
-    padding-right: 4rem;
 }
 
 .skills .box-container .box{
-    width: 100%;
+    width: 35rem;
     background: #222;
-    text-align: left;
+    text-align: center;
     padding: 2rem;
     margin: 2rem;
 }
 
 .skills .box-container .box span{
     font-size: 4rem;
-    color: #FF5F1F;
+    color: var(--red);
 }
 
 .skills .box-container .box h3{
     font-size: 2rem;
     color: #FFF;
-}
-
-.contact .heading span{
-    color: blue;
 }
 
 .contact .row{
@@ -318,6 +315,7 @@ header .nav-bar ul li a:hover{
     flex: 1 1 30rem;
     padding: 4rem;
     padding-left: 8rem;
+    padding-bottom: 0;
 }
 
 .contact .row form{
@@ -360,7 +358,7 @@ header .nav-bar ul li a:hover{
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color: blue;
+    color: var(--red);
 }
 
 .top{
