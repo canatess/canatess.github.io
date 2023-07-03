@@ -294,12 +294,12 @@ header .nav-bar ul li a:hover{
     margin: 2rem;
 }
 
-.skills .box-container .box span{
+.skills .box-container .box p{
     font-size: 4rem;
     color: #FF5F1F;
 }
 
-.skills .box-container .box p{
+.skills .box-container .box span{
     font-size: 2rem;
     color: #FFF;
 }
